@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Varsha Bai Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website, showcasing my projects, skills, and experience as a Computer Science student and aspiring Full Stack Developer.
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/3b5e4ee8-c731-4461-8182-b0f34be4b0f7
+I am a BSCS student specializing in **Full Stack Development and UI/UX Design**. This portfolio highlights my academic projects, technical skills, and development experience.
 
-## Run Locally
+## How to View
 
-**Prerequisites:**  Node.js
+Visit the live portfolio here: [https://Varsha-portfolio-url.com](https://ais-dev-iu52txx52bssiawjv6y7mp-150258372409.asia-southeast1.run.app)
 
+## Connect With Me
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+LinkedIn: https://www.linkedin.com/in/varsha-keswani
+GitHub: https://github.com/Varsha25k
