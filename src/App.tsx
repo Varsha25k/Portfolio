@@ -29,7 +29,7 @@ function HomePage() {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio/">
       <div className="min-h-screen bg-white selection:bg-gold/30 selection:text-forest">
         <Routes>
           <Route path="/" element={<HomePage />} />
