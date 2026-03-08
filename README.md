@@ -12,5 +12,5 @@ Visit the live portfolio here: [https://Varsha-portfolio-url.com](https://varsha
 
 ## Connect With Me
 
-[ LinkedIn ] (https://www.linkedin.com/in/varsha-keswani)
-[ GitHub ] (https://github.com/Varsha25k)
+ LinkedIn: https://www.linkedin.com/in/varsha-keswani
+ GitHub: https://github.com/Varsha25k
