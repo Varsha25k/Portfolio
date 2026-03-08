@@ -8,9 +8,9 @@ I am a BSCS student specializing in **Full Stack Development and UI/UX Design**.
 
 ## How to View
 
-Visit the live portfolio here: [https://Varsha-portfolio-url.com](https://ais-dev-iu52txx52bssiawjv6y7mp-150258372409.asia-southeast1.run.app)
+Visit the live portfolio here: [https://Varsha-portfolio-url.com](https://varsha25k.github.io/Portfolio/)
 
 ## Connect With Me
 
-LinkedIn: https://www.linkedin.com/in/varsha-keswani
-GitHub: https://github.com/Varsha25k
+[ LinkedIn ] (https://www.linkedin.com/in/varsha-keswani)
+[ GitHub ] (https://github.com/Varsha25k)
