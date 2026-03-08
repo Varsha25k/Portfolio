@@ -28,10 +28,12 @@ export default function Hero() {
             <span className="text-sm font-medium text-forest">Hello There!</span>
           </div>
           
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-forest leading-tight mb-6">
-            I'm <span className="text-gold">Varsha Bai,</span><br />
-            Full Stack web Developer | UI/UX Designer
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-forest leading-tight mb-2">
+            I'm <span className="text-gold">Varsha Bai,</span>
           </h1>
+          <h2 className="text-2xl md:text-3xl lg:text-3xl font-semibold text-forest leading-snug mb-6 whitespace-nowrap">
+            Full Stack Web Developer | UI/UX Designer
+          </h2>
           
           <p className="text-lg text-gray-600 mb-10 max-w-lg leading-relaxed">
             Computer Science student at SZABIST Karachi with experience in web development, database systems, and UI/UX design.
