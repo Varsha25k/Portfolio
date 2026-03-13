@@ -104,7 +104,7 @@ export default function Contact() {
               <div className="w-full sm:w-auto">
                 <p className="text-forest font-bold mb-4">Resume</p>
                 <a 
-                  href="/Varsha_Bai_Resume.pdf" 
+                  href="/Portfolio/Varsha_Bai_Resume.pdf" 
                   download="Varsha_Bai_Resume.pdf"
                   className="bg-gold text-forest px-8 py-3 rounded-xl font-bold flex items-center gap-3 hover:bg-mustard transition-all shadow-lg hover:shadow-gold/20"
                 >

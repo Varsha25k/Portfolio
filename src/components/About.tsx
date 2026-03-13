@@ -65,8 +65,8 @@ export default function About() {
 
           <div className="flex flex-wrap gap-4">
             <a 
-              href="/Varsha_Bai_Resume.pdf" 
-              download="Varsha_Bai_Resume.pdf"
+              href="/Portfolio/Varsha_Bai_Resume.pdf" 
+              download
               className="bg-forest text-white px-8 py-4 rounded-full font-bold flex items-center gap-3 hover:bg-olive transition-all shadow-xl hover:shadow-forest/20"
             >
               Download Resume <Download size={20} />
