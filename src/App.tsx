@@ -4,14 +4,11 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
-import Skills from './components/Skills';
-import TechStack from './components/TechStack';
-import Experience from './components/Experience';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import ExpertisePage from './pages/ExpertisePage';
+import LatestProjects from './components/LatestProjects';
 
 function HomePage() {
   return (
@@ -21,6 +18,7 @@ function HomePage() {
         <Hero />
         <Services />
         <About />
+        <LatestProjects />
       </main>
       <Footer />
     </>

@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
-const categories = ['All', 'Web', 'Software', 'UI/UX'];
+const categories = ['All', 'Web', 'Tech', 'UI/UX'];
 
 const projects = [
   {
     id: 1,
     title: 'Shopping Center System',
-    category: 'Software',
+    category: 'Tech',
     image: 'https://i.ibb.co/LdgY44Yj/image2.png',
     description: 'Developed a shopping center management system using the C programming language, focusing on core logic and data handling for store operations.',
     technologies: 'C, Console-based system design',
@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     title: 'Car Rental System',
-    category: 'Software',
+    category: 'Tech',
     image: 'http://i.ibb.co/nMC8sQ0v/Capture2.png',
     description: 'Built an object‑oriented car rental system that models vehicles, customers, and rental processes using OOP principles for cleaner, modular code.',
     technologies: 'OOP concepts, classes/objects, structured software design',
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 3,
     title: 'Social Media Post Analyzer & User Insights',
-    category: 'Software',
+    category: 'Tech',
     image: 'https://i.ibb.co/twd8vQCW/image.png',
     description: 'Developed a Web API to analyze social media posts and extract user engagement insights while learning database concepts.',
     technologies: 'Web API, Database Concepts, Programming Logic',
@@ -35,11 +35,12 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Social Media Feed Management System',
-    category: 'Software',
+    title: 'Fraud Detection System',
+    category: 'Tech',
     image: 'https://i.ibb.co/WvSgVFKN/Capture4.png',
     description: 'Developed a collaborative system to manage and organize social media feeds, applying object-oriented programming and data structures for efficient post handling and interaction.',
     technologies: 'Java, OOP, Data Structures & Algorithms (Collaborative Project)',
+    github: 'https://github.com/Varsha25k/FraudDetectionSystem',
   },
   {
     id: 5,
@@ -67,6 +68,14 @@ const projects = [
     description: 'Designed and developed my personal portfolio layout using Figma, focusing on responsive UI, modern design principles, and showcasing projects effectively.',
     technologies: 'Figma, UI/UX Design, Responsive Layout',
     github: 'https://github.com/Varsha25k/MyPortfolio',
+  },
+  {
+    id: 8,
+    title: 'CPU Scheduling Visualizer',
+    category: 'Tech',
+    image: 'https://i.ibb.co/LdgY44Yj/image2.png',
+    description: 'An interactive tool to visualize various CPU scheduling algorithms like FCFS, SJF, Priority, and Round Robin in Operating Systems.',
+    github: 'https://github.com/Varsha25k/CPU-Scheduling-Visualizer',
   },
 ];
 

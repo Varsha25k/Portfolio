@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ExternalLink, Search } from 'lucide-react';
 
-const categories = ['All', 'Web', 'Software', 'UI/UX'];
+const categories = ['All', 'Web', 'Tech', 'UI/UX'];
 
 const projects = [
   {
     id: 1,
     title: 'Social Media Post Analyzer',
-    category: 'Software',
+    category: 'Tech',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
     description: 'A tool for analyzing social media posts and providing user insights.',
   },
@@ -29,23 +29,30 @@ const projects = [
   {
     id: 4,
     title: 'Car Rental Management',
-    category: 'Software',
+    category: 'Tech',
     image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800&auto=format&fit=crop',
     description: 'An efficient system for managing car rentals and bookings.',
   },
   {
     id: 5,
-    title: 'Social Media Feed System',
-    category: 'Software',
+    title: 'Fraud Detection System',
+    category: 'Tech',
     image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800&auto=format&fit=crop',
-    description: 'A robust system for managing and displaying social media feeds.',
+    description: 'A console-based fraud detection system built in Java using core data structures including Linked List, Max Heap, HashMap, Graph, and Sliding Window Queue to detect suspicious financial transactions in real time.',
   },
   {
     id: 6,
-    title: 'Portfolio UI/UX Design',
+    title: 'My Portfolio (Figma Design Project)',
     category: 'UI/UX',
     image: 'https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=800&auto=format&fit=crop',
     description: 'A modern and interactive portfolio design focusing on user experience.',
+  },
+  {
+    id: 7,
+    title: 'CPU Scheduling Visualizer',
+    category: 'Tech',
+    image: 'https://images.unsplash.com/photo-1581091215369-1e9f4a872b0f?q=80&w=800&auto=format&fit=crop',
+    description: 'An interactive tool to visualize various CPU scheduling algorithms like FCFS, SJF, Priority, and Round Robin in Operating Systems.',
   },
 ];
 

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
-    id: 6,
+    id: 3,
     title: 'Pet Adoption Portal',
     category: 'Web',
     image: 'https://i.ibb.co/C3WLkxPn/image3.png',
@@ -13,7 +13,7 @@ const projects = [
     technologies: 'Laravel, PHP, MySQL',
   },
   {
-    id: 7,
+    id: 6,
     title: 'My Portfolio (Figma Design Project)',
     category: 'UI/UX',
     image: 'https://i.ibb.co/FbMXtDXM/portfolio.png',
@@ -21,7 +21,7 @@ const projects = [
     technologies: 'Figma, UI/UX Design',
   },
   {
-    id: 3,
+    id: 1,
     title: 'Social Media Post Analyzer',
     category: 'Software',
     image: 'https://i.ibb.co/xp96CZf/Capture3.png',
