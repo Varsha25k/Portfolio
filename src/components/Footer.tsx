@@ -1,19 +1,41 @@
 import React from 'react';
 import { Linkedin, Github } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const scrollToSection = (sectionId: string) => {
+    if (location.pathname !== '/') {
+      // If not on home page, navigate to home first
+      navigate('/');
+      // Wait for navigation to complete, then scroll
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      // If already on home page, just scroll
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
 
   return (
     <footer className="bg-forest text-white py-16">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 lg:col-span-1">
-            <a href="#home" className="text-2xl font-bold flex items-center gap-2 mb-6">
+            <Link to="/" className="text-2xl font-bold flex items-center gap-2 mb-6">
               <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-forest">V</div>
               <span>Varsha<span className="text-gold">.</span></span>
-            </a>
+            </Link>
             <p className="text-gray-400 leading-relaxed mb-8">
               A Computer Science student and Software Developer dedicated to building scalable systems and modern web applications.
             </p>
@@ -40,13 +62,42 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-6">Quick Links</h4>
             <ul className="space-y-4">
-              {['Home', 'Services', 'About', 'Expertise', 'Portfolio', 'Contact'].map((item) => (
-                <li key={item}>
-                  <Link to={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="text-gray-400 hover:text-gold transition-colors">
-                    {item}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link to="/" className="text-gray-400 hover:text-gold transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('services')}
+                  className="text-gray-400 hover:text-gold transition-colors text-left"
+                >
+                  Services
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => scrollToSection('about')}
+                  className="text-gray-400 hover:text-gold transition-colors text-left"
+                >
+                  About
+                </button>
+              </li>
+              <li>
+                <Link to="/expertise" className="text-gray-400 hover:text-gold transition-colors">
+                  Expertise
+                </Link>
+              </li>
+              <li>
+                <Link to="/portfolio" className="text-gray-400 hover:text-gold transition-colors">
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-gray-400 hover:text-gold transition-colors">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
 
